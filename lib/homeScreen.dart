@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'color/baseScreen.dart';
+import 'color/colorScreen.dart';
 import 'number/numScreen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -88,7 +88,7 @@ class HomeScreen extends StatelessWidget {
     {
       "Text": "Colors",
       "img": "assets/images/ColorPalette.png",
-      "pass": BaseColorScreen(),
+      "pass": ColorScreen(),
     },
     {
       "Text": "Numbers",
