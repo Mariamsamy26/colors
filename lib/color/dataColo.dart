@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 final List<Map<String, dynamic>> colors = [
   // Red tones
-  {"Text": "Scarlet", "Color": Colors.red[900]},
+  {"Text": "red", "Color": Colors.red},
 
   // Orange tones
   {"Text": "Orange", "Color": Colors.orange},
@@ -25,53 +25,9 @@ final List<Map<String, dynamic>> colors = [
   {"Text": "Pink", "Color": Colors.pink},
   {"Text": " baby Pink", "Color": Colors.pink[200]},
 
-  // Brown tones
-  {"Text": "Brown", "Color": Colors.brown},
-
   // Grey tones
   {"Text": "Grey", "Color": Colors.blueGrey[300]},
-];
 
-
-final List<Map<String, dynamic>> num = [
-  {
-    "Text": "One",
-    "img": "assets/images/1.png",
-  },
-  {
-    "Text": "two",
-    "img": "assets/images/2.png",
-  },
-  {
-    "Text": "three",
-    "img": "assets/images/3.png",
-  },
-  {
-    "Text": "four",
-    "img": "assets/images/4.png",
-  },
-  {
-    "Text": "five",
-    "img": "assets/images/5.png",
-  },
-  {
-    "Text": "six",
-    "img": "assets/images/6.png",
-  },
-  {
-    "Text": "seven",
-    "img": "assets/images/7.png",
-  },
-  {
-    "Text": "eight",
-    "img": "assets/images/8.png",
-  },
-  {
-    "Text": "nine",
-    "img": "assets/images/9.png",
-  },
-  {
-    "Text": "ten",
-    "img": "assets/images/10.png",
-  },
+  // Brown tones
+  {"Text": "Brown", "Color": Colors.brown},
 ];
